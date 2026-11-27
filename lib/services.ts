@@ -2,6 +2,9 @@ export const services = [
   {
     id: "tax",
     title: "Tax planning",
+    category: "Tax",
+    description: "Minimize liability legally with strategic federal, state and local tax planning.",
+    items: ["Deductions & credits", "Timing opportunities", "Multi-state filing", "Entity structuring"],
     short: "Minimize liability legally.",
     long: "Strategic tax planning across federal, state and local jurisdictions. We identify deductions, credits and timing opportunities that fit your business model.",
     icon: "T",
@@ -10,6 +13,9 @@ export const services = [
   {
     id: "cfo",
     title: "Outsourced CFO",
+    category: "CFO",
+    description: "Expert financial leadership for growing companies, without the full-time cost.",
+    items: ["Financial planning", "Cash-flow forecasting", "Investor reporting", "Decision support"],
     short: "Expert financial leadership.",
     long: "Fractional CFO services for growing companies. Financial planning, cash-flow forecasting, investor reporting and strategic decision support.",
     icon: "C",
@@ -18,6 +24,9 @@ export const services = [
   {
     id: "audit",
     title: "Audit preparation",
+    category: "Audit",
+    description: "Comprehensive audit readiness programs so you are never caught off guard.",
+    items: ["Document organization", "Internal controls", "External coordination", "Readiness reviews"],
     short: "Get ready for review.",
     long: "Comprehensive audit readiness programs. Document organization, internal control reviews and coordination with external auditors.",
     icon: "A",
@@ -26,6 +35,9 @@ export const services = [
   {
     id: "wealth",
     title: "Wealth management",
+    category: "Wealth",
+    description: "Holistic wealth management for individuals and families.",
+    items: ["Investment planning", "Estate considerations", "Tax-efficient allocation", "Retirement strategy"],
     short: "Protect and grow assets.",
     long: "Holistic wealth management for individuals and families. Investment planning, estate considerations and tax-efficient asset allocation.",
     icon: "W",

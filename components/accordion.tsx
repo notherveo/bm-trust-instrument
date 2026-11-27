@@ -33,3 +33,19 @@ export function AccordionItem({
     </div>
   );
 }
+
+export function Accordion({
+  items,
+}: {
+  items: { title: string; content: string }[];
+}) {
+  return (
+    <div className="faq-accordion">
+      {items.map((item) => (
+        <AccordionItem key={item.title} title={item.title}>
+          {item.content}
+        </AccordionItem>
+      ))}
+    </div>
+  );
+}
